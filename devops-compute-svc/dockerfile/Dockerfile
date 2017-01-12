@@ -1,6 +1,6 @@
 FROM java:openjdk-8-jdk
 
-ADD devops-compute-svc/target/devops-compute-svc-1.0.jar /
+ADD /var/jenkins_home/jobs/devops-compute-svc/workspace/devops-compute-svc/target/devops-compute-svc-1.0.jar /
 
 EXPOSE 8101
 
