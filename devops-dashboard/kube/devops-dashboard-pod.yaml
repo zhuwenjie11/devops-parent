@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: devops-dashboard
-      image: 172.16.100.235:80/dcpp/devops-dashboard:1.0
+      image: 172.16.100.235:80/dcpp/devops-dashboard:1.1
       ports:
       - containerPort: 8100

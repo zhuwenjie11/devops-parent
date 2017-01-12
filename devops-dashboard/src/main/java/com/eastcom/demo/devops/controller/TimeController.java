@@ -15,7 +15,6 @@ public class TimeController {
 	
 	private Logger logger = LoggerFactory.getLogger(TimeController.class);
 	
-	
 	@RequestMapping("/time")
     @ResponseBody
     String home() {
@@ -24,5 +23,7 @@ public class TimeController {
 		logger.info("now is {}",timeStr);
         return timeStr;
     }
+	
+
 
 }
