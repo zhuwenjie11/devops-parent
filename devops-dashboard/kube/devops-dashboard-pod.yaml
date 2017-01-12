@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devops-dashboard
+  labels:
+    devops: devops-dashboard
+    env: test
+spec:
+  containers:
+    - name: devops-dashboard
+      image: 172.16.100.235:80/dcpp/devops-dashboard:1.0
+      ports:
+      - containerPort: 8100
