@@ -18,7 +18,7 @@ public class ComputeController {
 		RestTemplate rest = new RestTemplate();
 		String reuslt = rest.getForEntity("http://devops-compute:8101/add?a="+a+"&b="+b, String.class).getBody();
 		logger.info("call addnum end , return result {}",reuslt);
-		reuslt +=" test1";
+		reuslt +=" test1.2";
         return reuslt;
     }
 	
