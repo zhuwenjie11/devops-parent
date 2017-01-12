@@ -4,6 +4,7 @@ metadata:
   name: devops-compute
   labels:
     devops: devops-compute
+    env: test
 spec:
   containers:
     - name: devops-compute

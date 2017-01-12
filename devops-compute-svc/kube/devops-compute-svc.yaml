@@ -6,5 +6,6 @@ spec:
   type: ClusterIP
   selector:
     devops: devops-compute
+    env: test
   ports:
   - port: 8101
