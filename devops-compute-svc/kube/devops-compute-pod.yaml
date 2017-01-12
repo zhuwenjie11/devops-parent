@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devops-compute
+  labels:
+    devops: devops-compute
+spec:
+  containers:
+    - name: devops-compute
+      image: 172.16.100.235:80/dcpp/devops-compute-svc:1.1
+      ports:
+      - containerPort: 8101

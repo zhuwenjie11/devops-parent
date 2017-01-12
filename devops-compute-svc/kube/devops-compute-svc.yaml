@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-compute
+spec:
+  type: ClusterIP
+  selector:
+    devops: devops-compute
+  ports:
+  - port: 8101
