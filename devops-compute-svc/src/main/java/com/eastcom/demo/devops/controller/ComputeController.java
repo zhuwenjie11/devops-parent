@@ -14,7 +14,7 @@ public class ComputeController {
 	@GetMapping("/add")
 	public int add(@RequestParam Integer a , @RequestParam Integer b){
 		int result = a + b;
-		logger.info("add a={} , b = {} ,result = {}", a , b , result );
+		logger.info("... add a={} , b = {} ,result = {}", a , b , result );
 		return result;
 	}
 	
