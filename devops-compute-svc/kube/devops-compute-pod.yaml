@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: devops-compute
-      image: 172.16.100.235:80/dcpp/devops-compute-svc:1.1
+      image: 172.16.100.234:80/dcpp/devops-compute-svc:1.1
       imagePullPolicy: Always
       ports:
       - containerPort: 8101
